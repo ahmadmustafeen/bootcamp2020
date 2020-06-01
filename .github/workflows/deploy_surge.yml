@@ -26,6 +26,6 @@ jobs:
     
     
     - name: install surge
-      uses: npm install surge --g
+      uses: npm install surge -g
    
   
