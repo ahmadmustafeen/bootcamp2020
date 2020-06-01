@@ -26,8 +26,6 @@ jobs:
     
     
     - name: install surge
-      uses: npm i -g surge
-    - name: deploy surge
-      uses: surge ./ ahmadmustafeen.surge.sh --token ${{secrets.SURGE_TOKEN}}
-
+      uses: npm install surge --g
+   
   
